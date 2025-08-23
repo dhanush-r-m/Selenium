@@ -11,3 +11,4 @@ elem.send_keys(Keys.RETURN)
 assert "Google" in driver.title
 time.sleep(6)
 driver.close()
+driver.open()
